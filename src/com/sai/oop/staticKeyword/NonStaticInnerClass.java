@@ -2,6 +2,9 @@ package com.sai.oop.staticKeyword;
 
 class OuterClass {
     // Outer class members and methods
+    OuterClass(){
+        System.out.println("Outer Constructor called successfully");
+    }
 
     class InnerClass {
         // Inner class members and methods

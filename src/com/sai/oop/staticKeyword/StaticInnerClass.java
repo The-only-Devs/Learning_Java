@@ -1,10 +1,14 @@
 package com.sai.oop.staticKeyword;
 
 class OuterClass1{
+    OuterClass1(){
+        System.out.println("OuterClass1 Constructor called");
+    }
+
     static class InnerClass{
         String name;
-
         InnerClass(String name){
+            System.out.println("InnerClass Constructor called");
             this.name = name;
         }
     }
