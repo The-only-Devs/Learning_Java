@@ -12,7 +12,8 @@ public class Varargs_AmbiguityInMethodOverloading {
 //        Ambiguity in Method Overloading in Variable Arguments(Varargs):
 //        Ambiguity in Method Overloading in Variable Arguments(Varargs) is the situation when arguments are
 //        empty. Hence the compiler gets confused.
-//        demo();
+//        For example if demo function is invoked like demo();
+//        then complier will get confused to which function implementation of demo to be called
 
     }
 
